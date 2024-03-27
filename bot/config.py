@@ -12,7 +12,7 @@ with open(config_dir / "config.yml", 'r') as f:
 config_env = dotenv.dotenv_values(config_dir / "config.env")
 
 # config parameters
-telegram_token = config_yaml["telegram_token"]
+telegram_token = config_yaml["7144123613:AAHndNMGqyaRfPG5v86d5EvBeuAMAmPLR3s"]
 openai_api_key = config_yaml["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"]
 openai_api_base = config_yaml.get("openai_api_base", None)
 allowed_telegram_usernames = config_yaml["allowed_telegram_usernames"]
